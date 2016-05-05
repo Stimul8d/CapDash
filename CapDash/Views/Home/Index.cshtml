@@ -1,0 +1,27 @@
+﻿@model CapDash.Models.HomeModel
+
+<div class="jumbotron">
+    <h1>@Model.Title</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Response Times</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Model.MinResponseTime</h2>
+        <p>
+            
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>@Model.MaxResponseTime</h2>
+    </div>
+    <div class="col-md-4">
+        <h2>@Model.TotalResponseTime</h2>
+        <p>
+        </p>
+    </div>
+</div>
